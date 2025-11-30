@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+python-jose[cryptography]
+argon2-cffi
+python-multipart
+python-dotenv
+requests
+google-generativeai
+pydantic-settings
+email-validator
+openai
+google-genai
+cloudinary
