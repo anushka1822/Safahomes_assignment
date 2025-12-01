@@ -7,6 +7,7 @@ A full-stack AI-powered home design application. Users can generate home design 
 -   **Backend**: FastAPI, PostgreSQL, SQLAlchemy, JWT Authentication.
 -   **Frontend**: React, Vite, Vanilla CSS (Premium Dark Theme).
 -   **AI Providers**: Pollinations.ai (Default), Google Gemini (Native & Enhanced), OpenAI DALL-E 3.
+-   Pllinations.ai [Free API] , Google Gemini & OpenAI DALL-E 3 [Paid models]
 -   **Storage**: Cloudinary (for Gemini generated images).
 
 ## Prerequisites
@@ -54,7 +55,7 @@ Run the server:
 ```bash
 uvicorn main:app --reload
 ```
-The API will be available at `http://127.0.0.1:8000`.
+The API will be available at `https://safahome-assignment-anushka.onrender.com`.
 
 ### 2. Frontend Setup
 
@@ -72,7 +73,7 @@ Run the development server:
 ```bash
 npm run dev
 ```
-Access the application at `http://localhost:5173`.
+Access the application at `https://safahomes-assignment.vercel.app/`.
 
 ## Features
 
