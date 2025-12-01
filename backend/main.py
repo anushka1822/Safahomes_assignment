@@ -14,6 +14,7 @@ app = FastAPI(title=settings.PROJECT_NAME, openapi_url=f"{settings.API_V1_STR}/o
 origins = [
     "http://localhost:5173",  # Vite default
     "http://localhost:3000",
+    "https://safahomes-assignment.vercel.app/"
 ]
 
 app.add_middleware(
